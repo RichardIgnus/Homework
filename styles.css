@@ -186,7 +186,6 @@ article h2
 {
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
-
 }
 
 article p
@@ -203,7 +202,30 @@ section{
     flex-direction: column;
 }
 footer{
-    flex-direction: column-reverse;
+    flex-direction: column;
+    flex: 100%;
+}
+aside
+{
+    flex:100%;
+}
+
+main{
+    flex:100%;
+}
+
+img{
+    flex: 100%;
+    padding: 10px;
+}
+
+.mountainImage{
+    padding: 10px;
+    flex: 100%;
+}
+article {
+    padding: 10px;
+    flex: 100%;
 }
 
 }
