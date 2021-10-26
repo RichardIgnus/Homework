@@ -42,7 +42,7 @@ header p {
 }
 
 .readmo:hover {
-    background-color: #DB545A;
+    background-color: #b1161e;
 }
 
 .readmo:active {
@@ -52,9 +52,10 @@ header p {
 }
 
 nav{
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(255, 255, 255);
     overflow: hidden;
     padding: 0px 40px 0px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 nav a {
@@ -65,7 +66,17 @@ nav a {
     padding: 25px 30px;
 }
 
-section 
+.logo
+{
+    background-color: white;
+    width: 50px;
+    height: 30px;
+    border: 3px solid gray;
+    text-align: left;
+    
+}
+
+section
 {
     display:flex;
     flex-wrap: wrap;
@@ -76,7 +87,7 @@ aside
 {
     background-color: #CCD3DB;
     width: 40%;
-    height: 400px;
+    height: 450px;
     padding: 60px 50px;
     color: #468AC9;
 }
@@ -105,7 +116,7 @@ main h2
 {
     margin-top: 10px;
     font-size: 30px;
-    color: #235e96;
+    color: #74b3ee;
 }
 
 main input[type=text] {
@@ -133,4 +144,50 @@ main input[type=submit]
     width: 100px;
     height: 30px;
 }
-@media only screen and (min-device-width: 400px)
+
+.submitButton:hover {
+    background-color: #12406b;
+}
+
+.submitButton:active {
+    background-color: #468AC9;
+    box-shadow: 0 2px #468AC9;
+    transform: translateY(1px);
+}
+
+.mountainImage
+{
+    max-width: 800px;
+    max-height: 800px;
+    padding: 100px 20px 100px 100px;
+}
+
+footer
+{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+article
+{
+    text-align: center;
+    padding-top: 150px;
+    padding-right: 60px;
+}
+
+article h2
+{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+article p
+{
+    letter-spacing: 1px;
+    font-size: 15px;
+    text-align:unset;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media only screen and (min-device-width: 800px)
