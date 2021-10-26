@@ -52,9 +52,10 @@ header p {
 }
 
 nav{
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(255, 255, 255);
     overflow: hidden;
     padding: 0px 40px 0px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 nav a {
@@ -65,7 +66,17 @@ nav a {
     padding: 25px 30px;
 }
 
-section 
+.logo
+{
+    background-color: white;
+    width: 50px;
+    height: 30px;
+    border: 3px solid gray;
+    text-align: left;
+    
+}
+
+section
 {
     display:flex;
     flex-wrap: wrap;
@@ -178,4 +189,5 @@ article p
     text-align:unset;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 @media only screen and (min-device-width: 800px)
