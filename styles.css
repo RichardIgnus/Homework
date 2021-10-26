@@ -30,24 +30,24 @@ header p {
 }
 
 .readmo {
-    background-color: rgb(255, 48, 48);
+    background-color: #DB545A;
     color: white;
     text-align: center;
     font-family: 'Courier New', monospace;
     border-radius: 2px;
     font-size: 12px;
-    border: 0.1px solid red;
+    border: 0.1px #DB545A;
     width: 100px;
     height: 35px;
 }
 
 .readmo:hover {
-    background-color: #b12f2f;
+    background-color: #DB545A;
 }
 
 .readmo:active {
-    background-color: rgb(255, 48, 48);
-    box-shadow: 0 2px #666;
+    background-color: #DB545A;
+    box-shadow: 0 2px #DB545A;
     transform: translateY(1px);
 }
 
@@ -65,9 +65,23 @@ nav a {
     padding: 30px 30px;
 }
 
-aside {
+section {
     display:flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+}
+
+aside {
+    background-color: #CCD3DB;
+    width: 50%;
+    height: 500px;
+    padding: 30px
+}
+
+main {
+    background-color: #468AC9;
+    width: 50%;
+    padding: 30px
+    
 }
 
 @media only screen and (min-device-width: 400px)
