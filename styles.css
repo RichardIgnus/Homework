@@ -44,9 +44,11 @@ p {
 }
 
 .readmo:active {
-    background-color: #rgb(255, 48, 48);
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
+    background-color: rgb(255, 48, 48);
+    box-shadow: 0 2px #666;
+    transform: translateY(1px);
 }
+
+
 
 @media only screen and (min-device-width: 400px)
