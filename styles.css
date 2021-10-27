@@ -196,36 +196,37 @@ article p
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-@media only screen and (max-device-width: 700px)
+@media screen and (max-width: 700px)
 {
 section{
     flex-direction: column;
+
 }
-footer{
-    flex-direction: column;
-    flex: 100%;
-}
-aside
-{
-    flex:100%;
+aside{
+    min-height: 400px;
 }
 
-main{
-    flex:100%;
+nav{
+    padding: 0px;
+}
+nav .first{
+    padding-left: 15px;
 }
 
 img{
     flex: 100%;
-    padding: 10px;
+    width: 100%;
+    padding: 15px;
 }
 
-.mountainImage{
-    padding: 10px;
+div.mountainImage{
+    width: 100%;
     flex: 100%;
+    padding:0px;
 }
+
 article {
     padding: 10px;
     flex: 100%;
 }
-
 }
