@@ -206,8 +206,11 @@ aside{
     min-height: 400px;
 }
 
-main{
-
+nav{
+    padding: 0px;
+}
+nav .first{
+    padding-left: 15px;
 }
 
 img{
@@ -226,5 +229,4 @@ article {
     padding: 10px;
     flex: 100%;
 }
-
 }
